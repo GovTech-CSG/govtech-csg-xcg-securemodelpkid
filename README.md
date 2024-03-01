@@ -1,5 +1,7 @@
 # govtech-csg-xcg-securemodelpkid
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8497/badge)](https://www.bestpractices.dev/projects/8497)
+
 This package belongs to the **eXtended Code Guardrails (XCG)** project, which consists of a series of packages that harden the Django web framework to prevent common web application vulnerabilities.
 
 Specifically, the Secure Model PKID package provides mechanisms to generate random primary keys for Django model objects, as opposed to Django's default behaviour that uses an auto-incrementing integer value. The aim of this package is to prevent IDOR vulnerabilities.
